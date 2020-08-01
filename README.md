@@ -1,4 +1,4 @@
-# kwikmed
+# kontry
 
 ## Project setup
 ```
