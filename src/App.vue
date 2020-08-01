@@ -61,6 +61,18 @@ export default {
     font-family: 'Nunito Sans', sans-serif;
   }
 
+  *::-webkit-scrollbar{
+    width: 7px;
+  }
+
+  *::-webkit-scrollbar-thumb{
+    background: #ccc
+  }
+
+  .dark *::-webkit-scrollbar-thumb{
+    background: hsl(209, 23%, 22%)
+  }
+
   .cursor-pointer{
     cursor: pointer;
   }

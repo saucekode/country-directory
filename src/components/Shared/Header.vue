@@ -22,6 +22,9 @@
 </script>
 
 <style>
+    .header h2{
+        padding-left: 20px;
+    }
     .header{
         height: 80px;
         box-shadow: 0 0 6px rgba(0,0,0,0.3);

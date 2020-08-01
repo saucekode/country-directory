@@ -1,24 +1,16 @@
 <template>
     <div class="Content" :class="mode">
-        <div class="d-flex j-btw">
-            <Search :mode="mode"/>
-            <Filtersearch :mode="mode"/>
-        </div>
         <Countries/>
     </div>
 </template>
 
 <script>
-    import Search from '../Shared/Search'
-    import Filtersearch from '../Shared/Filter'
     import Countries from '../Shared/Countries'
 
     export default{
         name: 'Content', 
         props: ['mode'],
         components: {
-            Search,
-            Filtersearch,
             Countries
         }
     }
